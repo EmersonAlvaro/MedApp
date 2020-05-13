@@ -15,5 +15,4 @@ def  get_absolute_path(child_dir, parent_dir):
 
     return Path(''.join(path))
 
-
 data_dir = get_absolute_path(child_dir='data', parent_dir='deepmed')
