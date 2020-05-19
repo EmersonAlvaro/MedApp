@@ -4,6 +4,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 import tensorflow as tf
 from dataset.dataset import DataSet
 from train.train import Train
+from test.test import Test
 from model.xception import Xception
 
 '''
