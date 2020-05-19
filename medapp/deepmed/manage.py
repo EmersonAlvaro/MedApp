@@ -18,4 +18,4 @@ xception =  Xception()
 
 # xception.plot_model()
 train = Train()
-train.train()
+train.train(epochs=3)
